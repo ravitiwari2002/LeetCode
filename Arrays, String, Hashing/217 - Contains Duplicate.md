@@ -1,37 +1,66 @@
-Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+### Problem Statement
 
-Example 1:
+Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.
 
-Input: nums = [1,2,3,1]
+---
 
-Output: true
+### Example 1:
 
-Explanation:
+**Input:**
+```plaintext
+nums = [1,2,3,1]
+```
 
-The element 1 occurs at the indices 0 and 3.
+**Output:**
+```plaintext
+true
+```
 
-Example 2:
+**Explanation:**
+The element `1` occurs at the indices `0` and `3`.
 
-Input: nums = [1,2,3,4]
+---
 
-Output: false
+### Example 2:
 
-Explanation:
+**Input:**
+```plaintext
+nums = [1,2,3,4]
+```
 
+**Output:**
+```plaintext
+false
+```
+
+**Explanation:**
 All elements are distinct.
 
-Example 3:
+---
 
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
+### Example 3:
 
-Output: true
+**Input:**
+```plaintext
+nums = [1,1,1,3,3,4,3,2,4,2]
+```
 
- 
+**Output:**
+```plaintext
+true
+```
 
-Constraints:
+---
 
-1 <= nums.length <= 105
--109 <= nums[i] <= 109
+### Constraints:
 
-- Can use HashSet
-- Can use Sorting
+- `1 <= nums.length <= 10^5`
+- `-10^9 <= nums[i] <= 10^9`
+
+---
+
+### Approaches:
+
+1. Using a HashSet
+2. Using Sorting
+   
